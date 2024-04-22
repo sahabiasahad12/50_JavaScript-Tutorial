@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>click the button to change the date</h2>
+        <button type="button" class="btn btn-dark" onclick="showDate()">show date</button>
+        <h3 id="sd">Show Date</h3>
+
+        <hr>
+        <h2>click the button to change the text</h2>
+        <button type="button" class="btn btn-dark" onclick="textChange()">text change</button>
+        <h3 id="t_h3">lorem</h3>
+        <hr>
+
+        <h2>click the button to on/off the bulb</h2>
+        <button type="button" class="btn btn-success" onclick="bulbOn()">Bulb On</button>
+        <button type="button" class="btn btn-danger" onclick="bulbOff()">Bulb Off</button>
+        <img id="img" src="image/off.gif" alt="">
+        <hr>
+
+        <h2>Click the button to add a border to the text</h2>
+        <button type="button" class="btn btn-dark" onclick="showBorder()">Show Border</button>
+        <h3 id="sb">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <hr>
+
+        <h2>Click the button to show/hide the text</h2>
+        <button type="button" class="btn btn-success" onclick="textShow()">Show Text</button>
+        <button type="button" class="btn btn-danger" onclick="textHide()">Hide Text</button>
+        <h3 id="tex">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+        <hr>
+
+        <h2>Click the button to change the script Tag</h2>
+        <button type="button" class="btn btn-dark" onclick="javaScript()">Try It</button>
+        <h3 id="jst">Hello World</h3>
+        <hr>
+
+        <h2>Click the button to change the Using document My Exam result</h2>
+        <button type="button" class="btn btn-success" onclick="exmResult()">Result</button>
+        <h3 id="se">Using document 55 + 35</h3>
+        <hr>
+
+        <h2>Click the button to change the JavaScript Statements</h2>
+        <button type="button" class="btn btn-success" onclick="JsStatements()">Show Result</button>
+        <h3 id="st">JavaScript Statements let a, b, c; a = 33; b = 67; c = a + b</h3>
+        <hr>
+
+        <h2>Click the button to change the JavaScript Syntax Literals</h2>
+        <button type="button" class="btn btn-dark" onclick="syntaxLiterals()">Click Here</button>
+        <h3 id="sl">JavaScript Syntax Literals 50.50;</h3>
+        <hr>
+
+        <h2>Click the button to change the JavaScript Operators</h2>
+        <button type="button" class="btn btn-success" onclick="JsOperators()">Click Here</button>
+        <h3 id="op"> JavaScript Operators let x, y; x = 5 + 6; y = x * 10</h3>
+        <hr>
+
+        <h2>An Expression Is A Combination Of Values, Variables, And Operators, Which Computes To A Value.The Computation Is Called An Evaluation</h2>
+        <button type="button" class="btn btn-success" onclick="jsExpressions()">Click Here</button>
+        <h3 id="exp">An Expression Is A Combination Of Values = 5 * 10;</h3>
+        <hr>
+
+        <h2>Javascript Keywords Are Used To Identify Actions To Be Performed.</h2>
+        <button type="button" class="btn btn-success" onclick="jsKeywords()">Click Here</button>
+        <h3 id="Keyword">x = 7 + 10; y = x * 7</h3>
+        <hr>
+
+        <h2>Comments are ignored, and will not be executed:</h2>
+        <button type="button" class="btn btn-success" onclick="JsExecuted()">Click Here</button>
+        <h3 id="Executed"></h3>
+        <hr>
+
+        <h2>All JavaScript identifiers are case sensitive.</h2>
+        <button type="button" class="btn btn-danger" onclick="JsSensitive()">Read More</button>
+        <h3 id="sensitive">Hello</h3>
+        <hr>
+
+        <h2>JavaScript Variables var</h2>
+        <button type="button" class="btn btn-success" onclick="JsVar()">Read More</button>
+        <h3 id="jsv">In this example, x, y, and z are undeclared x = 20; y = 12; z = x + y;</h3>
+        <hr>
+
+        <h2>JavaScript Variables let</h2>
+        <button type="button" class="btn btn-dark" onclick="VarLet()">Click Here</button>
+        <h3 id="Jslet">In this example, x, y, and z are variables.x = 5; y = 6; z = x + y</h3>
+        <hr>
+
+        <h2>Creating a variable in JavaScript is called "declaring" a variable.</h2>
+        <button type="button" class="btn btn-success" onclick="JsDeclaring()">Click Here</button>
+        <h3 id="dec">Car Name</h3>
+        <hr>
+
+        <h2>You can change the elements of a constant array</h2>
+        <button type="button" class="btn btn-dark" onclick="JsArrays()">Read More</button>
+        <h3 id="arr">Toyota</h3>
+        <hr>
+
+        <h2>Constant Objects
+        You can change the properties of a constant object</h2>
+        <button type="button" class="btn btn-success" onclick="JsObject()">Click Here</button>
+        <h3 id="obj"></h3>
+        <hr>
+
+        <h2>Assignment Operator (=) assigns a value to a variable</h2>
+        <button type="button" class="btn btn-success" onclick="JsOperator()">Read More</button>
+        <h3 id="opr">The Assignment (=) Operator let x = 10; let y = 25; let z = x + y</h3>
+        <hr>
+
+        <h2>The Multiplication Operator (*) multiplies numbers</h2>
+        <button type="button" class="btn btn-danger" onclick="Jsmultiplies()">click Hear</button>
+        <h3 id="mul">The * Operator let x = 10; let y = 7; let z = x * y</h3>
+        <hr>
+
+        <h2>Call a function which performs a calculation and returns the result</h2>
+        <button type="button" class="btn btn-success" onclick="JsReturns()">Click Hear</button>
+        <h3 id="returns">Call a function which performs a calculation and returns the result (let x = (10, 4))</h3>
+        <hr>
+
+        <h2>Invoke (call) a function that converts from Fahrenheit to Celsius</h2>
+        <button type="button" class="btn btn-dark" onclick="JsInvokes()">Read More</button>
+        <h3 id="invokes">Invoke (call) a function that converts from Fahrenheit to Celsius</h3>
+        <hr>
+
+        <h2>Objects are variables too. But objects can contain many values</h2>
+        <button type="button" class="btn btn-success" onclick="JsManyvalues()">Click Hear</button>
+        <h3 id="many"></h3>
+        <hr>
+
+        <h2>Spaces and line breaks are not important. An object definition can span multiple lines</h2>
+        <button type="button" class="btn btn-danger" onclick="JsDefinition()">Click Hear</button>
+        <h3 id="def"></h3>
+        <hr>
+
+        <h2>You can access object properties in two ways</h2>
+        <button type="button" class="btn btn-success" onclick="JsAccessing()">Read More</button>
+        <h3 id="acc"></h3>
+        <hr>
+
+        <h2>JavaScript HTML Events</h2>
+        <button type="button" class="btn btn-success" onclick="JsEvent()">The time is?</button>
+        <h3 id="eve"></h3>
+        <hr>
+
+        <h2>A JavaScript string is zero or more characters written inside quotes</h2>
+        <button type="button" class="btn btn-success" onclick="JsQuotes()">Click Hear</button>
+        <h3 id="quo">The Most Famous People</h3>
+        <hr>
+
+        <h2>Templates are strings enclosed in backticks (`This is a template `)</h2>
+        <button type="button" class="btn btn-success" onclick="JsString()">Read More</button>
+        <h3 id="str"></h3>
+        <hr>
+
+        <h2>JavaScript String Methods</h2>
+        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZSKJIHUXUHUSJFU</p>
+        <h4>The length of the string is:</h4>
+        <button type="button" class="btn btn-dark" onclick="JsLength()">Click Hear</button>
+        <h3 id="len"></h3>
+        <hr>
+
+        <h2>The charAt() method returns the character at a given position in a string</h2>
+        <p>HELLO WORLD</p>
+        <h4>The charAt(6) Method</h4>
+        <button type="button" class="btn btn-success" onclick="JsCharat()">Click Hear</button>
+        <h3 id="charAt"></h3>
+        <hr>
+
+        <h2>JavaScript String charCodeAt</h2>
+        <p>HELLO WORLD</p>
+        <button type="button" class="btn btn-danger" onclick="JsCharcode()">Click Hear</button>
+        <h3 id="charCode">The charCodeAt(3)</h3>
+        <hr>
+
+        <h2>The at() method returns an indexed element from a string</h2>
+        <p>Sahabia Sahad</p>
+        <h4>The at(4) Method</h4>
+        <button type="button" class="btn btn-success" onclick="JsAt()">Click Hear</button>
+        <h3 id="at"></h3>
+        <hr>
+        
+        <h2>The substring() method extract a part of a string and returns the extracted parts in a new string:</h2>
+        <button type="button" class="btn btn-success" onclick="JsSubstring()">Read More</button>
+        <h3 id="substring"></h3>
+        <hr>
+
+        <h2>The substr() method extract a part of a string and returns the extracted parts in a new string:</h2>
+        <p>Sahabia, Sahad, Saymun</p>
+        <h4></h4>
+        <button type="button" class="btn btn-dark" onclick="JsSubstr()">Click Hear</button>
+        <h3 id="sub"></h3>
+        <hr>
+
+        <h2>JavaScript String toLowerCase</h2>
+        <button type="button" class="btn btn-success" onclick="JsToLowerCase()">Click Hear</button>
+        <h3 id="toLowerCase">Sahabia Sahad</h3>
+        <hr>
+
+        <h2>Convert string to upper case:</h2>
+        <button type="button" class="btn btn-danger" onclick="JsUppercase()">Click Hear</button>
+        <h3 id="uppercase">Sahabia Sahad</h3>
+        <hr>
+
+        <h2>The concat() method joins two or more strings:</h2>
+        <button type="button" class="btn btn-dark" onclick="JsJoins()">Click Hear</button>
+        <h3 id="joins"></h3>
+        <hr>
+
+        <h2>The trim() method removes whitespace from both sides of a string:</h2>
+        <p>"     Sahabia Sahad     "</p>
+        <h4>The trim() Method</h4>
+        <button type="button" class="btn btn-success" onclick="JsTrim()">Read More</button>
+        <h3 id="trim"></h3>
+        <hr>
+
+        <h2>The indexOf() method returns the position of the first occurrence of a string in a string</h2>
+        <p>Believe you can and you're halfway there.</p>
+        <button type="button" class="btn btn-success" onclick="JsIndexof()">Click Hear</button>
+        <h3 id="index">The position of the first occurrence of "halfway" is:</h3>
+        <hr>
+
+        <h2>The lastIndexOf() method accepts a second parameter as the starting position for the search</h2>
+        <button type="button" class="btn btn-danger" onclick="JsLastIndexOf()">Click Hear</button>
+        <h3 id="LastIndex"></h3>
+        <hr>
+
+        <h2>The search() method returns the position of the first occurrence of a string in a string</h2>
+        <button type="button" class="btn btn-danger" onclick="JsSearch()">Click Hear</button>
+        <h3 id="search"></h3>
+        <hr>
+
+        <h2>The match() method returns an array containing the results of matching a string against a string</h2>
+        <p>Perform a global, case-insensitive search for "success":</p>
+        <button type="button" class="btn btn-danger" onclick="JsMatch()">Read More</button>
+        <h3 id="match"></h3>
+        <hr>
+
+        <h2>Extra large or extra small numbers can be written with scientific (exponent) notation:</h2>
+        <button type="button" class="btn btn-success" onclick="JsNumbers()">Click Hear</button>
+        <h3 id="numbers"></h3>
+        <hr>
+
+        <h2>Floating point arithmetic is not always 100% accurate</h2>
+        <button type="button" class="btn btn-success" onclick="JsFloating()">Read More</button>
+        <h3 id="Floating">1.5 + 2.1 = </h3>
+        <hr>
+
+        <H2>A common mistake is to expect this result to be 102030</H2>
+        <button type="button" class="btn btn-success" onclick="JsAdd()">Read More</button>
+        <h3 id="add"></h3>
+        <hr>
+
+        <h2>JavaScript integers are only accurate up to 15 digits</h2>
+        <button type="button" class="btn btn-dark" onclick="JsBigInt()">Click Hear</button>
+        <h3 id="BigInt"></h3>
+        <hr>
+
+        <h2>The length property returns the length (size) of an array:</h2>
+        <button type="button" class="btn btn-success" onclick="JsArray()">Read More</button>
+        <h3 id="array"></h3>
+        <hr>
+
+        <h2>The toString() method returns an array as a comma separated string</h2>
+        <button type="button" class="btn btn-success" onclick="JsTostring()">Read More</button>
+        <h3 id="tostring"></h3>
+        <hr>
+
+        <h2>In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10</h2>
+        <button type="button" class="btn btn-dark" onclick="JsWhileloop()">Click Hear</button>
+        <h3 id="whileloop"></h3>
+        <hr>
+        <hr>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
